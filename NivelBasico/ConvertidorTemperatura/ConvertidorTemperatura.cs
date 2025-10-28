@@ -12,15 +12,18 @@ namespace NivelBasico.clases
         private double fahrenheit;
         private double kelvin;
 
-        public void GetGrados(int grado)
+        public ConvertidorTemperatura(int grado)
         {
             celsius = grado;
             fahrenheit = grado * 9 / 5 + 32;
             kelvin = grado + 273.15;
 
-            System.Console.WriteLine("Grados celcius: " + celsius);
-            System.Console.WriteLine("Grados fahrenheit: " + fahrenheit);
-            System.Console.WriteLine("Grados kelvin: " + kelvin);
+            Console.WriteLine("------------------------------------------------");
+            Console.WriteLine("Grados celcius: {0}℃", celsius);
+            Console.WriteLine("Grados fahrenheit: {0}℉", fahrenheit);
+            Console.WriteLine("Grados kelvin: {0}°K", kelvin);
+            Console.WriteLine("------------------------------------------------");
+            Console.ReadLine();
         }
     }
 }
