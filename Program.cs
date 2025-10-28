@@ -1,9 +1,9 @@
-﻿using NivelBasico.LevelBasicControler;
+﻿using NivelBasico.LevelBasiControler;
 internal class Program
 {
     private static void Main(string[] args)
     {
-        LevelBasicController levelBasicController = new LevelBasicController();
+        LevelBasiController levelBasicController = new LevelBasiController();
         levelBasicController.RunCalculadora();
         levelBasicController.RunConvertidorTemperatura();
     }
