@@ -11,7 +11,4 @@ Cada carpeta contiene ejercicios prácticos, pequeños proyectos y ejemplos desa
 
 Mi objetivo es mejorar mis habilidades en programación, aplicar buenas prácticas y dejar un registro claro de mi evolución como programador autodidacta.
 
----
-
-## 📂 Estructura del repositorio
-
+usar emogis, lo mejor del planeta 🙏.
