@@ -18,15 +18,15 @@ usar emogis, lo mejor del planeta 🙏.
 **CSharpLearningJourney**\
 ├── README.md\
 ├── .gitignore\
-├── NivelBasico/\
-├   ├── LevelBasiController/\
+├── 🗂 NivelBasico/\
+├   ├── 📂LevelBasiController/\
 ├   ├   └── LevelBasiController.cs\
-├   ├── Practica X/\
+├   ├── 📂Practica X/\
 ├   ├   └── practica.cs\
-├── NivelMedio/\
-├── LevelMidController\
+├── 🗂 NivelMedio/\
+├── 📂LevelMidController\
 ├   └── LevelMidController\
-├── Practica X/\
+├── 📂Practica X/\
 ├   └── practica.cs\
 └── Program.cs
 

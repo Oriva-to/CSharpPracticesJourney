@@ -1,0 +1,35 @@
+{
+  "Ingeniero": {
+    "Id": 1,
+    "Nombre": "Carlos",
+    "Apellido": "Motero",
+    "NumeroTelefonico": null
+  },
+  "Cansiller": {
+    "Id": 2,
+    "Nombre": "Jorge",
+    "Apellido": "Zantana",
+    "NumeroTelefonico": [
+      "809-000-0004",
+      "555-000-3333"
+    ]
+  },
+  "Policia": {
+    "Id": 2,
+    "Nombre": "Jorge",
+    "Apellido": "Zantana",
+    "NumeroTelefonico": [
+      "809-000-0004",
+      "555-000-3333"
+    ]
+  },
+  "Guardia": {
+    "Id": 2,
+    "Nombre": "Jorge",
+    "Apellido": "Zantana",
+    "NumeroTelefonico": [
+      "809-000-0004",
+      "555-000-3333"
+    ]
+  }
+}
