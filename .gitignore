@@ -1,0 +1,32 @@
+# Archivos y carpetas generadas al compilar
+bin/
+obj/
+Debug/
+Release/
+
+# Carpetas temporales o de configuración
+.vs/
+.vscode/
+*.user
+*.suo
+*.tmp
+*.log
+
+# Archivos de sistema (Windows / macOS)
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archivos comprimidos o empaquetados
+*.zip
+*.rar
+*.7z
+
+# Archivos binarios o ensamblados
+*.exe
+*.dll
+*.pdb
+
+# Copias o respaldos automáticos
+*.bak
+*.old
