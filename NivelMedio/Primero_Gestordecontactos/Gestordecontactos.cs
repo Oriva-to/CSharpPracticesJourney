@@ -1,14 +1,14 @@
 ﻿using System.Text.Json;
 using NivelMedio.clases.Dto;
 
-namespace NivelMedio.Primero_Gestordecontactos
+namespace CSharpPracticesJourney.NivelMedio.Primero_Gestordecontactos
 {
     public class Gestordecontactos
     {
         public void Run()
         {
             var path = @"datos\PrimeroGestordecontactos.json";
-            
+
             if (!Directory.Exists("datos"))
             {
                 DirectoryInfo di = Directory.CreateDirectory("datos");

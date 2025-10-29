@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Fecha": "2025-10-29T02:10:27.0282478-04:00",
+    "NombrePaciente": "Marco Martil Morales",
+    "Tema": "Fiebre",
+    "Descripcion": "Sudor interminable"
+  },
+  {
+    "Id": 2,
+    "Fecha": "2025-10-29T02:14:01.1053884-04:00",
+    "NombrePaciente": "hfghg",
+    "Tema": "fghg",
+    "Descripcion": "fghg"
+  }
+]

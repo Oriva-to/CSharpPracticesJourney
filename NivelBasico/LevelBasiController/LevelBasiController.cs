@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NivelBasico.clases;
+using CSharpPracticesJourney.NivelBasico.Calculadora;
+using CSharpPracticesJourney.NivelBasico.ConvertidorTemperatura;
 
 namespace NivelBasico.LevelBasiControler
 {

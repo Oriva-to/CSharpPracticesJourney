@@ -1,5 +1,5 @@
-﻿using NivelBasico.LevelBasiControler;
-using NivelMedio.Primero_Gestordecontactos;
+﻿using CSharpPracticesJourney.NivelMedio.NivelMedioController;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -8,7 +8,10 @@ internal class Program
         // levelBasicController.RunCalculadora();
         // levelBasicController.RunConvertidorTemperatura();
 
-        Gestordecontactos gestor = new();
-        gestor.Run();
+        //NivelMedioController nivelMedioController = new();
+        //nivelMedioController.RunPrimeroGestordecontactos();
+        //nivelMedioController.RunSegundoSistemaInventario();
+        //nivelMedioController.RunTerceroAgendaDeCitasMedicas();
+        //nivelMedioController.RunCuartoJuegoAhorcado();
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NivelBasico.clases
+namespace CSharpPracticesJourney.NivelBasico.Calculadora
 {
     public class Calculadora
     {

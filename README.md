@@ -16,17 +16,24 @@ usar emogis, lo mejor del planeta 🙏.
 ## 🚧 Esturctura
 
 **CSharpLearningJourney**\
-├── README.md\
-├── .gitignore\
-├── 🗂 NivelBasico/\
-├   ├── 📂LevelBasiController/\
-├   ├   └── LevelBasiController.cs\
-├   ├── 📂Practica X/\
-├   ├   └── practica.cs\
-├── 🗂 NivelMedio/\
-├── 📂LevelMidController\
-├   └── LevelMidController\
-├── 📂Practica X/\
-├   └── practica.cs\
-└── Program.cs
-
+├── 📘 README.md\
+├── 🧾 .gitignore\
+├── 🟢 NivelBasico/\
+│ ├── 🧩 LevelBasiController/\
+│ │ └── LevelBasiController.cs\
+│ ├── 🧠 Practica X/\
+│ │ └── practica.cs\
+├── 🟣 NivelMedio/\
+│ ├── 🧩 LevelMidController/\
+│ │ └── LevelMidController.cs\
+│ ├── ⚙️ Practica X/\
+│ │ ├── 🧱 App/\
+│ │ │ ├── 🧩 Control/\
+│ │ │ │ └── Control.cs\
+│ │ │ ├── 🚀 Engine/\
+│ │ │ │ └── Engine.cs\
+│ │ ├── 🧰 Clases/\
+│ │ │ ├── 🧩 Engine/\
+│ │ │ │ └── dto.cs\
+│\
+└── ▶️ Program.cs\
