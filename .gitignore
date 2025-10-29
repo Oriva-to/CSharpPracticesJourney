@@ -17,11 +17,6 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Archivos comprimidos o empaquetados
-*.zip
-*.rar
-*.7z
-
 # Archivos binarios o ensamblados
 *.exe
 *.dll

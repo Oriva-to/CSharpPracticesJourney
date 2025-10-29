@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
-namespace NivelBasico.clases
+namespace CSharpPracticesJourney.NivelBasico.ConvertidorTemperatura
 {
     public class ConvertidorTemperatura
     {

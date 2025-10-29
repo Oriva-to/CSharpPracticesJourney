@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NivelBasico;
-using NivelBasico.clases;
+using CSharpPracticesJourney.NivelBasico.Calculadora;
+using CSharpPracticesJourney.NivelBasico.ConvertidorTemperatura;
 
-namespace NivelBasico.LevelBasicControler
+namespace NivelBasico.LevelBasiControler
 {
-    public class LevelBasicController
+    public class LevelBasiController
     {
         public void RunCalculadora()
         {
