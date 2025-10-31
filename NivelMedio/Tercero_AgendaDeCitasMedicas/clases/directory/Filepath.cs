@@ -7,15 +7,15 @@ namespace CSharpPracticesJourney.NivelMedio.Tercero_AgendaDeCitasMedicas.clases.
 {
     public class Filepath
     {
-        public readonly string filePath = Path.Combine(Environment.CurrentDirectory, "datos", "Tercero_AgendaDeCitasMedicas.json");
+        public readonly string filePath = Path.Combine(Environment.CurrentDirectory, "datosNivelMedio", "Tercero_AgendaDeCitasMedicas.json");
 
         public void MakeFile()
         {
-            if (!Directory.Exists("data"))
+            if (!Directory.Exists("datosNivelMedio"))
             {
                 try
                 {
-                    DirectoryInfo di = Directory.CreateDirectory("datos");
+                    DirectoryInfo di = Directory.CreateDirectory("datosNivelMedio");
                 }
                 catch (Exception e)
                 {

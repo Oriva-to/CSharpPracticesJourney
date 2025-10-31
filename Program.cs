@@ -8,10 +8,10 @@ internal class Program
         // levelBasicController.RunCalculadora();
         // levelBasicController.RunConvertidorTemperatura();
 
-        //NivelMedioController nivelMedioController = new();
+        NivelMedioController nivelMedioController = new();
         //nivelMedioController.RunPrimeroGestordecontactos();
         //nivelMedioController.RunSegundoSistemaInventario();
-        //nivelMedioController.RunTerceroAgendaDeCitasMedicas();
+        nivelMedioController.RunTerceroAgendaDeCitasMedicas();
         //nivelMedioController.RunCuartoJuegoAhorcado();
     }
 }

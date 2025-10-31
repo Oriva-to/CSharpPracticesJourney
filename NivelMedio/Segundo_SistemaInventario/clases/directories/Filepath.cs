@@ -8,14 +8,14 @@ namespace CSharpPracticesJourney.NivelMedio.Segundo_SistemaInventario.clases.dir
 {
     public class Filepath
     {
-        public string filePath = Path.Combine("datos", "Segundo_SistemaInventario.json");
+        public string filePath = Path.Combine("datosNivelMedio", "Segundo_SistemaInventario.json");
 
         
         public void CrearArchivo()
         {
-            if (!Directory.Exists("datos"))
+            if (!Directory.Exists("datosNivelMedio"))
             {
-                DirectoryInfo di = Directory.CreateDirectory("datos");
+                DirectoryInfo di = Directory.CreateDirectory("datosNivelMedio");
             }
             if (!File.Exists(filePath))
             {

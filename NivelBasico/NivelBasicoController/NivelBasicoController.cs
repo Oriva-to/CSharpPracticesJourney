@@ -7,7 +7,7 @@ using CSharpPracticesJourney.NivelBasico.ConvertidorTemperatura;
 
 namespace NivelBasico.LevelBasiControler
 {
-    public class LevelBasiController
+    public class NivelBasicoController
     {
         public void RunCalculadora()
         {
