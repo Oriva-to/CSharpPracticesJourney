@@ -7,11 +7,11 @@ namespace CSharpPracticesJourney.NivelMedio.Primero_Gestordecontactos
     {
         public void Run()
         {
-            var path = @"datos\PrimeroGestordecontactos.json";
+            var path = @"datosNivelMedio\PrimeroMedioGestordecontactos.json";
 
-            if (!Directory.Exists("datos"))
+            if (!Directory.Exists("datosNivelMedio"))
             {
-                DirectoryInfo di = Directory.CreateDirectory("datos");
+                DirectoryInfo di = Directory.CreateDirectory("datosNivelMedio");
             }
 
             Dictionary<string, PersonaDto> persona = new();
