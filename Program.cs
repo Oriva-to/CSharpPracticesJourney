@@ -1,5 +1,6 @@
 ﻿using CSharpPracticesJourney.NivelMedio.NivelMedioController;
 using CSharpPracticesJourney.NivelBasico.NivelBasicoController;
+using CSharpPracticesJourney.NivelAvanzado.app.controllers;
 
 internal class Program
 {
@@ -14,5 +15,10 @@ internal class Program
         //nivelMedioController.RunSegundoSistemaInventario();
         //nivelMedioController.RunTerceroAgendaDeCitasMedicas();
         //nivelMedioController.RunCuartoJuegoAhorcado();
+
+        PrimeroTareasController primeroTareasController = new();
+        
+        
+        
     }
 }

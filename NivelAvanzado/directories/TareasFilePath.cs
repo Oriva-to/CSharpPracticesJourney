@@ -16,9 +16,9 @@ namespace CSharpPracticesJourney.NivelAvanzado.directories
 
         private void CreateDirectoryIfNotExists()
         {
-            if (!Directory.Exists(filePath))
+            if (!Directory.Exists("datosNivelAvanzado"))
             {
-                Directory.CreateDirectory(filePath);
+                Directory.CreateDirectory("datosNivelAvanzado");
             }
             if (!File.Exists(filePath))
             {

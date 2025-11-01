@@ -7,7 +7,7 @@ namespace CSharpPracticesJourney.NivelAvanzado.clases
 {
     public class Reader : TareasFilePath
     {
-        public TareaDto ReadFromFile()
+        public List<TareaDto> ReadFromFile()
         {
             using (StreamReader sr = new(filePath))
             {
@@ -15,11 +15,7 @@ namespace CSharpPracticesJourney.NivelAvanzado.clases
 
                 try
                 {
-                    if (!string.IsNullOrWhiteSpace(content))
-                    {
-                        throw new Exception("El archivo está vacío.");
-                    }
-                    var tarea = JsonSerializer.Deserialize<TareaDto>(content);
+                    var tarea = JsonSerializer.Deserialize<List<TareaDto>>(content);
                     return tarea!;
                 }
                 catch (JsonException ex)

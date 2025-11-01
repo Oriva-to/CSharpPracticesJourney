@@ -2,8 +2,8 @@ namespace CSharpPracticesJourney.NivelAvanzado.enums
 {
     public enum PrioridadTareas
     {
-        Baja,
+        Alta,
         Media,
-        Alta
+        Baja
     }
 }

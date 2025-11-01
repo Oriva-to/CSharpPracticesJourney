@@ -10,6 +10,6 @@ namespace CSharpPracticesJourney.NivelAvanzado.dtos
         public string? Descripcion { get; set; }
         public PrioridadTareas Prioridad { get; set; }
         public DateTime FechaLimite { get; set; }
-        public Estadotareas Estado { get; set; }
+        public Estadotareas Estado { get; set; } = Estadotareas.Pendiente;
     }
 }
