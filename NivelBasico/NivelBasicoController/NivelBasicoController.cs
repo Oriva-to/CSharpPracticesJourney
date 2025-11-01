@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CSharpPracticesJourney.NivelBasico.Calculadora;
-using CSharpPracticesJourney.NivelBasico.ConvertidorTemperatura;
+using CSharpPracticesJourney.NivelBasico;
 
-namespace NivelBasico.LevelBasiControler
+namespace CSharpPracticesJourney.NivelBasico.NivelBasicoController
 {
     public class NivelBasicoController
     {
@@ -19,7 +15,7 @@ namespace NivelBasico.LevelBasiControler
 
             System.Console.Write("Segundo numero: ");
             int b = Convert.ToInt32(Console.ReadLine());
-
+            
             Calculadora calculadora = new Calculadora(a, b);
             Console.WriteLine("------------------------------------------------");
             calculadora.Suma();
