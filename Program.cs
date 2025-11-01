@@ -1,17 +1,18 @@
 ﻿using CSharpPracticesJourney.NivelMedio.NivelMedioController;
+using CSharpPracticesJourney.NivelBasico.NivelBasicoController;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        // LevelBasiController levelBasicController = new LevelBasiController();
+        //NivelBasicoController levelBasicController = new();
         // levelBasicController.RunCalculadora();
         // levelBasicController.RunConvertidorTemperatura();
 
-        NivelMedioController nivelMedioController = new();
+        //NivelMedioController nivelMedioController = new();
         //nivelMedioController.RunPrimeroGestordecontactos();
         //nivelMedioController.RunSegundoSistemaInventario();
-        nivelMedioController.RunTerceroAgendaDeCitasMedicas();
+        //nivelMedioController.RunTerceroAgendaDeCitasMedicas();
         //nivelMedioController.RunCuartoJuegoAhorcado();
     }
 }
