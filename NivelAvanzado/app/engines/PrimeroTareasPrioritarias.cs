@@ -10,8 +10,8 @@ namespace CSharpPracticesJourney.NivelAvanzado.app.engines
 {
     public class PrimeroTareasPrioritarias
     {
-        private Writer writer = new();
-        private Reader reader = new();
+        private Writer writer = new("Tareas.Json");
+        private Reader reader = new("Tareas.Json");
         private List<TareaDto> tarea = new();
 
         public List<TareaDto> Tarea { get => tarea; set => tarea = value; }

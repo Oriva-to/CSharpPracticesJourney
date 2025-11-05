@@ -5,8 +5,12 @@ using CSharpPracticesJourney.NivelAvanzado.dtos;
 
 namespace CSharpPracticesJourney.NivelAvanzado.clases
 {
-    public class Reader : TareasFilePath
+    public class Reader : GeneralFilePath
     {
+        public Reader(string nombreArchivo) : base(nombreArchivo)
+        {
+        }
+
         public List<TareaDto> ReadFromFile()
         {
             using (StreamReader sr = new(filePath))

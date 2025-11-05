@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 
 namespace CSharpPracticesJourney.NivelAvanzado.directories
 {
-    public abstract class TareasFilePath
+    public abstract class GeneralFilePath
     {
-        public readonly string filePath = Path.Combine(Environment.CurrentDirectory, "datosNivelAvanzado", "tareas.json");
+        public readonly string filePath;
 
-        protected TareasFilePath()
+        protected GeneralFilePath(string nombreArchivo)
         {
+            filePath = Path.Combine(Environment.CurrentDirectory, "datosNivelAvanzado", nombreArchivo);
             CreateDirectoryIfNotExists();
         }
 
