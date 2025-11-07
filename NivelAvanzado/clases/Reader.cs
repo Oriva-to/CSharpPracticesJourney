@@ -5,13 +5,13 @@ using CSharpPracticesJourney.NivelAvanzado.dtos;
 
 namespace CSharpPracticesJourney.NivelAvanzado.clases
 {
-    public class Reader : GeneralFilePath
+    public class Reader <T>: GeneralFilePath
     {
         public Reader(string nombreArchivo) : base(nombreArchivo)
         {
         }
 
-        public List<TareaDto> ReadFromFile()
+        public List<T> ReadFromFile()
         {
             using (StreamReader sr = new(filePath))
             {
@@ -19,7 +19,7 @@ namespace CSharpPracticesJourney.NivelAvanzado.clases
 
                 try
                 {
-                    var tarea = JsonSerializer.Deserialize<List<TareaDto>>(content);
+                    var tarea = JsonSerializer.Deserialize<List<T>>(content);
                     return tarea!;
                 }
                 catch (JsonException ex)

@@ -5,13 +5,13 @@ using CSharpPracticesJourney.NivelAvanzado.dtos;
 
 namespace CSharpPracticesJourney.NivelAvanzado.clases
 {
-    public class Writer : GeneralFilePath
+    public class Writer<T> : GeneralFilePath
     {
         public Writer(string nombreArchivo) : base(nombreArchivo)
         {
         }
 
-        public void WriteToFile(List<TareaDto> tarea)
+        public void WriteToFile(List<T> tarea)
         {
             using (StreamWriter sw = new(filePath))
             {
