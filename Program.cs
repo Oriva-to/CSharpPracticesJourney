@@ -16,8 +16,10 @@ internal class Program
         //nivelMedioController.RunTerceroAgendaDeCitasMedicas();
         //nivelMedioController.RunCuartoJuegoAhorcado();
 
-        PrimeroTareasController primeroTareasController = new();
-        
+        //PrimeroTareasController primeroTareasController = new();
+        SegundoAgendaTelefonicaController segundoAgenda = new();
+        //segundoAgenda.Rum();
+        segundoAgenda.chequeo();
         
         
     }

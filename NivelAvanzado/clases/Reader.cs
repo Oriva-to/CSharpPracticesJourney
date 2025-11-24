@@ -5,7 +5,7 @@ using CSharpPracticesJourney.NivelAvanzado.dtos;
 
 namespace CSharpPracticesJourney.NivelAvanzado.clases
 {
-    public class Reader <T>: GeneralFilePath
+    public class Reader<T> : GeneralFilePath
     {
         public Reader(string nombreArchivo) : base(nombreArchivo)
         {
